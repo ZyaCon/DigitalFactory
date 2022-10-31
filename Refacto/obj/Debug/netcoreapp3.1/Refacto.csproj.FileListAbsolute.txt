@@ -1,0 +1,10 @@
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\bin\Debug\netcoreapp3.1\Refacto.deps.json
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\bin\Debug\netcoreapp3.1\Refacto.dll
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\bin\Debug\netcoreapp3.1\Refacto.pdb
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\obj\Debug\netcoreapp3.1\Refacto.csproj.AssemblyReference.cache
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\obj\Debug\netcoreapp3.1\Refacto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\obj\Debug\netcoreapp3.1\Refacto.AssemblyInfoInputs.cache
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\obj\Debug\netcoreapp3.1\Refacto.AssemblyInfo.cs
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\obj\Debug\netcoreapp3.1\Refacto.csproj.CoreCompileInputs.cache
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\obj\Debug\netcoreapp3.1\Refacto.dll
+C:\Users\Guest1\Documents\fnac-digital-factory-master\DigitalFactory\Refacto\obj\Debug\netcoreapp3.1\Refacto.pdb
