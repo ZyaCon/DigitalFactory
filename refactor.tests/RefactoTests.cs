@@ -6,60 +6,40 @@ namespace Refacto.Tests
     public class RefactoTests
     {
         [TestMethod()]
-        public void CalculateDiscountRefactorType1()
+        public void CompareCalculateDiscountType1()
         {
-            Assert.AreEqual(PriceService.CalculateDiscountRefactor(12, 1, 5), 12);
+            var original = PriceService.CalculateDiscount(12, 1, 5);
+            var refactor = PriceService.CalculateDiscountRefactor(12, 1, 5);
+
+            Assert.AreEqual(original, refactor);
         }
 
         [TestMethod()]
-        public void CalculateDiscounType1()
+        public void CompareCalculateDiscountType2()
         {
-            Assert.AreEqual(PriceService.CalculateDiscount(12, 1, 5), 12);
-        }
+            var original = PriceService.CalculateDiscount(100, 2, 5);
+            var refactor = PriceService.CalculateDiscountRefactor(100, 2, 5);
 
-
-        [TestMethod()]
-        public void CalculateDiscountRefactorType2()
-        {
-            decimal value = 10.8m;
-            Assert.AreEqual(PriceService.CalculateDiscountRefactor(12, 2, 5), value);
+            Assert.AreEqual(original, refactor);
         }
 
         [TestMethod()]
-        public void CalculateDiscounType2()
+        public void CompareCalculateDiscountType3()
         {
-            decimal value = 10.8m;
-            Assert.AreEqual(PriceService.CalculateDiscount(12, 2, 5),value);
-        }
+            var original = PriceService.CalculateDiscount(123, 3, 4);
+            var refactor = PriceService.CalculateDiscountRefactor(123, 3, 4);
 
-
-        [TestMethod()]
-        public void CalculateDiscountRefactorType3()
-        {
-            decimal value = 8.4m;
-            Assert.AreEqual(PriceService.CalculateDiscountRefactor(12, 3, 5), value);
+            Assert.AreEqual(original, refactor);
         }
 
         [TestMethod()]
-        public void CalculateDiscounType3()
+        public void CompareCalculateDiscountType4()
         {
-            decimal value = 8.4m;
-            Assert.AreEqual(PriceService.CalculateDiscount(12, 3, 5), value);
+            var original = PriceService.CalculateDiscount(444, 4, 2);
+            var refactor = PriceService.CalculateDiscountRefactor(444, 4, 2);
+
+            Assert.AreEqual(original, refactor);
         }
 
-
-        [TestMethod()]
-        public void CalculateDiscountRefactorType4()
-        {
-            decimal value = 6.0m;
-            Assert.AreEqual(PriceService.CalculateDiscountRefactor(12, 4, 5), value);
-        }
-
-        [TestMethod()]
-        public void CalculateDiscounType4()
-        {
-            decimal value = 6.0m;
-            Assert.AreEqual(PriceService.CalculateDiscount(12, 4, 5), value);
-        }
     }
 }

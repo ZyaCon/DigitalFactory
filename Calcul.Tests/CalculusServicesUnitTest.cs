@@ -36,8 +36,8 @@ namespace Calcul
         public void Test_Factorial()
         {
             ICalculusServices calculusServices = new CalculusServices();
-            var expected = 120;
-            var result = calculusServices.Factorial(5);
+            var expected = 3628800;
+            var result = calculusServices.Factorial(10);
             Assert.AreEqual(expected, result);
         }
 

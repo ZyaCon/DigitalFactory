@@ -17,15 +17,15 @@ namespace PriceService
         /// <returns></returns>
         public static bool IsLeapYear(int year)
         {
-            bool divisableBy4 = IsDivisableBy(year, 4);
-            bool divisableBy100 = IsDivisableBy(year, 100);
-            bool divisableBy400 = IsDivisableBy(year, 400);
+            bool divisableBy4 = IsDivisibleBy(year, 4);
+            bool divisableBy100 = IsDivisibleBy(year, 100);
+            bool divisableBy400 = IsDivisibleBy(year, 400);
 
             return (divisableBy4 && divisableBy400)
                 || (divisableBy4 && !divisableBy100);
         }
 
-        private static bool IsDivisableBy(int year, int value)
+        private static bool IsDivisibleBy(int year, int value)
         {
             return year % value == 0;
         }
